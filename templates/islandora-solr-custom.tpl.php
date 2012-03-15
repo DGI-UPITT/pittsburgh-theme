@@ -115,25 +115,22 @@
         </div>
         <?php if($creator_value): ?>
         <div class="solr-field <?php print $result['mods_name_creator_ms']['class']; ?>">
-          <!-- <div class="label"><label><?php print t($result['mods_name_creator_ms']['label']); ?></label></div> -->
-          <div class="value"><label>Creator</label><?php print $creator_value; ?></div>
+          <div class="value"><label><?php print t($result['mods_name_creator_ms']['label']); ?></label><?php print $creator_value; ?></div>
         </div>
         <?php endif; ?>
         <?php if($source_collection_value): ?>
         <div class="solr-field <?php print $result['mods_host_title_ms']['class']; ?>">
-          <!-- <div class="label"><label><?php print t($result['mods_host_title_ms']['label']); ?></label></div> -->
-          <div class="value"><label>Source Collection</label><?php print $source_collection_value; ?></div>
+          <div class="value"><label><?php print t($result['mods_host_title_ms']['label']); ?></label><?php print $source_collection_value; ?></div>
         </div>
         <?php endif; ?>
         <?php if($type_value): ?>
         <div class="solr-field <?php print $result['mods_resource_type_ms']['class']; ?>">
-          <div class="value"><label>Type</label><?php print $type_value; ?></div>
+          <div class="value"><label><?php print t($result['mods_resource_type_ms']['label']); ?></label><?php print $type_value; ?></div>
         </div>
         <?php endif; ?>
         <?php if($date_value): ?>
         <div class="solr-field <?php print $result['mods_dateOther_s']['class']; ?>">
-          <!-- <div class="label"><label><?php print t($result['mods_dateOther_s']['label']); ?></label></div> -->
-          <div class="value"><label>Date</label><?php print $date_value; ?></div>
+          <div class="value"><label><?php print t($result['mods_dateOther_s']['label']); ?></label><?php print $date_value; ?></div>
         </div>
         <?php endif; ?>
 
