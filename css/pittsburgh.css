@@ -323,7 +323,7 @@ ol.islandora_solr_results
 .islandora_solr_result .solr-right 
 {
   margin-left:130px;
-  padding:10px 5px;
+  padding:10px 5px 5px;
 }
 .islandora_solr_result .solr-clear 
 {
