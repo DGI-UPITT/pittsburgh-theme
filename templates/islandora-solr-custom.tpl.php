@@ -113,14 +113,6 @@
             <?php endif; ?>
           </div>
         </div>
-<!--
-        <?php if($result['fgs_createdDate_s']['value']): ?>
-        <div class="solr-field <?php print $result['fgs_createdDate_s']['class']; ?>">
-          <div class="label"><label><?php print t($result['fgs_createdDate_s']['label']); ?></label></div>
-          <div class="value"><?php print date('l, F j Y', strtotime($result['fgs_createdDate_s']['value'])); ?></div>
-        </div>
-        <?php endif; ?>
--->
         <?php if($creator_value): ?>
         <div class="solr-field <?php print $result['mods_name_creator_ms']['class']; ?>">
           <!-- <div class="label"><label><?php print t($result['mods_name_creator_ms']['label']); ?></label></div> -->
