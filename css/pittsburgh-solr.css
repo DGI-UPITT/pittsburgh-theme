@@ -85,3 +85,45 @@ ol.islandora_solr_results
 {
 }
 
+/* Islandora Solr Facet Block */
+.islandora_solr_search_facet h3
+{
+  margin-bottom:0.5em;
+}
+ul.islandora_solr_search_facet_list
+{
+  list-style-type:none;
+  padding:0;
+  margin:0.5em 0 1em;
+}
+ul.islandora_solr_search_facet_list li
+{
+  list-style:inherit;
+  border-top: 1px solid #AAA;
+  background-color: #F9F9F9;
+  position: relative;
+  padding: .3em 2.5em .3em .4em;
+}
+ul.islandora_solr_search_facet_list li.last
+{
+  border-bottom: 1px solid #AAA;
+}
+ul.islandora_solr_search_facet_list li .plusminus
+{
+  border-left: 1px solid #AAA;
+  padding-left: 0.3em;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  width: 2.2em;
+  top: 0;
+  line-height: 1.6em;
+}
+ul.islandora_solr_search_facet_list a
+{
+  text-decoration:none;
+  font-weight:bold;
+}
+ul.islandora_solr_search_facet_list a:hover
+{
+}
