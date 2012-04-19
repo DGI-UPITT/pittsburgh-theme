@@ -109,6 +109,22 @@ function pittsburgh_preprocess_page(&$vars, $hook) {
     $banner_path = $base_path . $theme_path . '/images/pittsburgh/banner-960-small.jpg';
   }
   $vars['banner'] = $banner_path;
+  
+  
+  // node/11 node/12 node/13 front
+  // define landing pages
+  if (arg(0) == 'node') {
+    if (arg(1) == '11' OR arg(1) == '12' OR arg(1) == '13') {
+      $vars['classes_array'][] = 'landing-page';
+    }
+  }
+  // front landing page  
+  if ($vars['is_front']) {
+      $vars['classes_array'][] = 'landing-page';
+  }
+  
+  
+  
 
   // set back to pittsburgh url
   $vars['back_to_upitt'] = l(t('Back to University of Pittsburgh Libraries'), 'http://www.library.pitt.edu/libraries/drl/', array('attributes' => array('title' => t('Digital Research Library'), 'class' => 'back-to-upitt')) );

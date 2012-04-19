@@ -167,8 +167,8 @@ table tr th
 
 .no-sidebars #content
 {
-  padding: 5px;
-  width: 950px;
+  padding: 10px;
+  width: 940px;
 }
 
 
@@ -267,6 +267,8 @@ ul#main-menu li a.active
   border-left: 1px solid #33301F;
   border-right: 1px solid #33301F;
   border-bottom: 1px solid #33301F;
+  
+  padding-bottom: 40px;
 }
 
 .with-navigation #content,
@@ -275,6 +277,95 @@ ul#main-menu li a.active
 {
   margin-top: 35px;
 }
+
+
+
+/* Landing pages */
+
+.node-type-landing-page #content
+{
+  width: 460px; /* 480px */
+  padding: 10px 10px 10px 10px;
+  margin-right: -480px;
+}
+
+.node-type-landing-page #content .section
+{
+  background: #EEE3C4;
+  padding: 10px;
+}
+
+.node-type-landing-page .region-sidebar-second
+{
+  width: 460px; /* 480px */
+  padding: 10px 10px 10px 10px;
+  margin-left: 480px;
+}
+
+.node-type-landing-page .region-sidebar-second .section
+{
+  background: #EEE3C4;
+  padding: 10px;
+  margin: 0px 0px 0px 0px;
+}
+
+
+
+
+/* Views slideshow */
+
+
+.view-slideshow
+{
+
+}
+
+.view-slideshow .views_slideshow_singleframe_controls
+{
+  position: relative;
+}
+
+.view-slideshow .views_slideshow_singleframe_previous
+{
+  position: absolute;
+  left: 0px;
+}
+
+.view-slideshow .views_slideshow_singleframe_next
+{
+  position: absolute;
+  right: 0px;
+}
+
+.view-slideshow .views_slideshow_singleframe_pager
+{
+  text-align: center;
+}
+
+
+
+
+/* Search forms */
+
+.node-type-landing-page .form-item
+{
+  width: 50%;
+}
+
+.field-type-link a
+{
+  line-height: 17px;
+}
+
+.block-nodeblock h2
+{
+  font-size: 1.2em;
+}
+
+
+
+
+
 
 /* footer */
 
