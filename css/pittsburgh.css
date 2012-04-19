@@ -284,9 +284,9 @@ ul#main-menu li a.active
 
 .landing-page #content
 {
-  width: 600px; /* 480px */
+  width: 610px; /* 480px */
   padding: 10px 10px 10px 10px;
-  margin-right: -620px;
+  margin-right: -630px;
 }
 
 .landing-page #content .section
@@ -364,10 +364,10 @@ ul#main-menu li a.active
 
 .front #content
 {
-  width: 300px;
+  width: 320px;
   padding: 10px 10px 10px 10px;
-  margin-right: -640px;
-  margin-left: 320px;
+  margin-right: -650px;
+  margin-left: 310px;
 }
 
 .front .region-sidebar-first
