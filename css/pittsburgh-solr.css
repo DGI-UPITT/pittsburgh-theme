@@ -1,18 +1,23 @@
 /* islandora_solr_search */
+
+
 ol.islandora_solr_results
 {
   list-style-type:none;
   padding: 0;
   margin: auto 5px;
 }
+
 .islandora_solr_results .odd
 {
   background-color:#FAF9F6;
 }
+
 .islandora_solr_results .even
 {
   background-color:#FFF;
 }
+
 .islandora_solr_result
 {
   float:none;
@@ -24,9 +29,12 @@ ol.islandora_solr_results
   margin-top: 10px;
   margin-bottom: 15px;
 }
+
 .islandora_solr_result a
 {
+
 }
+
 .islandora_solr_result .solr-left 
 {
   float:left;
@@ -35,20 +43,24 @@ ol.islandora_solr_results
   display: table-cell;
   padding: 10px 0;
 }
+
 .islandora_solr_result .solr-left a img
 {
   vertical-align:middle;
   border:4px solid black;
 }
+
 .islandora_solr_result .solr-right 
 {
   margin-left:130px;
   padding:10px 5px 5px;
 }
+
 .islandora_solr_result .solr-clear 
 {
   clear:both;
 }
+
 .islandora_solr_result .solr-field, 
 .islandora_solr_result .solr-field:last-child 
 {
@@ -58,19 +70,23 @@ ol.islandora_solr_results
   padding:3px;
   width:auto;
 }
+
 .islandora_solr_result .solr-field .value
 {
   float:none;
   width:auto;
 }
+
 .islandora_solr_result .solr-field .value label
 {
   padding-right: .5em;
 }
+
 .islandora_solr_result .solr-field .value label:after
 {
   content:":";
 }
+
 .islandora_solr_result .solr-field a
 {
   padding:3px 0;
@@ -78,24 +94,35 @@ ol.islandora_solr_results
   font-weight:bold;
   color:black;
 }
+
 .islandora_solr_result .solr-field .value .solr-page-number
 {
-}
-.islandora_solr_result .mods-name-creator-ms 
-{
+
 }
 
+.islandora_solr_result .mods-name-creator-ms 
+{
+
+}
+
+
+
+
 /* Islandora Solr Facet Block */
+
+
 .islandora_solr_search_facet h3
 {
   margin-bottom:0.5em;
 }
+
 ul.islandora_solr_search_facet_list
 {
   list-style-type:none;
   padding:0;
   margin:0.5em 0 1em;
 }
+
 ul.islandora_solr_search_facet_list li
 {
   list-style:inherit;
@@ -104,10 +131,12 @@ ul.islandora_solr_search_facet_list li
   position: relative;
   padding: .3em 2.5em .3em .4em;
 }
+
 ul.islandora_solr_search_facet_list li.last
 {
   border-bottom: 1px solid #AAA;
 }
+
 ul.islandora_solr_search_facet_list li .plusminus
 {
   border-left: 1px solid #AAA;
@@ -119,11 +148,69 @@ ul.islandora_solr_search_facet_list li .plusminus
   top: 0;
   line-height: 1.6em;
 }
+
 ul.islandora_solr_search_facet_list a
 {
   text-decoration:none;
   font-weight:bold;
 }
+
 ul.islandora_solr_search_facet_list a:hover
 {
+
 }
+
+
+
+/* Google maps */
+
+
+#gmap-overlay-wrap
+{
+  background: #FFF4D3;
+  overflow: auto;
+  cursor: pointer;
+  box-shadow: 0px 0px 15px #333333;
+}
+
+#gmap-overlay
+{
+  margin: 30px 0px 30px 0px;
+  height: auto;
+  width: auto;
+}
+
+#islandora-solr-gmap-items
+{
+  padding: 0px 15px 0px 15px;
+  text-align: center;
+}
+
+#islandora-solr-gmap-items img
+{
+  width: 100%;
+}
+
+
+
+#gmap-overlay-hover-wrap
+{
+  height: auto;
+  min-height: 150px;
+  box-shadow: 0px 0px 5px #333333;
+  background: #FFF4D3;
+  overflow: hidden;
+  display: none;
+}
+
+#gmap-overlay-hover
+{
+  padding: 5px;
+}
+
+#gmap-overlay-hover img
+{
+  width: 100%;
+}
+
+
