@@ -116,7 +116,7 @@ function pittsburgh_preprocess_page(&$vars, $hook) {
   if (arg(0) == 'node') {
     if (arg(1) == '11' OR arg(1) == '12' OR arg(1) == '13') {
       if (arg(2) == '') {
-        $vars['classes_array'][] = 'landing-page';      
+        $vars['classes_array'][] = 'landing-page';
       }
     }
   }
