@@ -282,31 +282,36 @@ ul#main-menu li a.active
 
 /* Landing pages */
 
-.node-type-landing-page #content
+.landing-page #content
 {
   width: 460px; /* 480px */
   padding: 10px 10px 10px 10px;
   margin-right: -480px;
 }
 
-.node-type-landing-page #content .section
+.landing-page #content .section
 {
   background: #EEE3C4;
   padding: 10px;
 }
 
-.node-type-landing-page .region-sidebar-second
+.landing-page .region-sidebar-second
 {
   width: 460px; /* 480px */
   padding: 10px 10px 10px 10px;
   margin-left: 480px;
 }
 
-.node-type-landing-page .region-sidebar-second .section
+.landing-page .region-sidebar-second .section
 {
   background: #EEE3C4;
   padding: 10px;
   margin: 0px 0px 0px 0px;
+}
+
+.landing-page .form-item
+{
+  width: 50%;
 }
 
 
@@ -346,11 +351,6 @@ ul#main-menu li a.active
 
 
 /* Search forms */
-
-.node-type-landing-page .form-item
-{
-  width: 50%;
-}
 
 .field-type-link a
 {

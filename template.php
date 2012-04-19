@@ -115,7 +115,9 @@ function pittsburgh_preprocess_page(&$vars, $hook) {
   // define landing pages
   if (arg(0) == 'node') {
     if (arg(1) == '11' OR arg(1) == '12' OR arg(1) == '13') {
-      $vars['classes_array'][] = 'landing-page';
+      if (arg(2) == '') {
+        $vars['classes_array'][] = 'landing-page';      
+      }
     }
   }
   // front landing page  
