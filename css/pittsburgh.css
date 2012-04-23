@@ -328,6 +328,8 @@ ul#main-menu li a.active
 
 
 
+
+
 /* quicktabs */
 
 
@@ -421,6 +423,11 @@ ul#main-menu li a.active
   right: 0px;
 }
 
+.view-slideshow .views_slideshow_singleframe_pause
+{
+  display: none;
+}
+
 .view-slideshow .views_slideshow_singleframe_pager
 {
   text-align: center;
@@ -452,6 +459,15 @@ ul#main-menu li a.active
 {
   font-size: 1.2em;
 }
+
+.links-first-column,
+.field-field-canned-search-links-right
+{
+  float: left;
+  width: 50%;
+}
+
+
 
 
 
