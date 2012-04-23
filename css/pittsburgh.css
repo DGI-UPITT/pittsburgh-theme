@@ -326,17 +326,22 @@ ul#main-menu li a.active
   margin: 10px 0px 0px 0px;  
 }
 
-#quicktabs-solr_search li a
+
+
+/* quicktabs */
+
+
+.block-quicktabs li a
 {
   text-decoration: none;
 }
 
-#quicktabs-solr_search li a:hover
+.block-quicktabs li a:hover
 {
   text-decoration: underline;
 }
 
-#quicktabs-solr_search li.active a
+.block-quicktabs li.active a
 {
   padding: 5px 10px 5px 10px;
   background: #5D4A42;
@@ -348,15 +353,18 @@ ul#main-menu li a.active
           border-radius: 5px; /* Opera 10.5, IE9, Saf5, Chrome, FF4, iOS 4, Android 2.1+ */
 }
 
-#quicktabs-solr_search ul
+.block-quicktabs ul
 {
   padding: 0px 0px 0px 0px;
 }
 
-#quicktabs-solr_search ul li.first
+.block-quicktabs ul li.first
 {
   margin-right: 5px;
 }
+
+
+
 
 
 
