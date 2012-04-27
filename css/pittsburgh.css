@@ -171,6 +171,14 @@ table tr th
   width: 940px;
 }
 
+.region-sidebar-first .section
+{
+  margin: 0 5px 0 0;
+}
+
+
+
+
 
 
 /* header top */
@@ -192,9 +200,17 @@ a.back-to-upitt
 
 /* header */
 
+
+#header-top
+{
+  position: relative;
+  width: 100%;
+}
+
 #header
 {
-
+  position: relative;
+  width: 100%;
 }
 
 a#banner
